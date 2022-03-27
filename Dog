@@ -1,0 +1,17 @@
+public class Dog extends Animal{
+
+    public double jump;
+    public int swimming;
+
+    public Dog (String name, int run, int swimming, double jump){
+        this.name = name;
+        this.run = run;
+        this.swimming = swimming;
+        this.jump = jump;
+    }
+
+    public void dogInfo(){
+        System.out.println("DogName:" + name + "/RunLimit: " + run + "meters/" + "/Swimming:" + swimming + "/Jump:"
+                +jump+ "meters/");
+    }
+}

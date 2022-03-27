@@ -1,0 +1,17 @@
+public class Cat extends Animal {
+
+    protected boolean swimming;
+    int jump;
+
+    public Cat(String name, int run, boolean swimming, int jump){
+        this.name = name;
+        this.run = run;
+        this.swimming = swimming;
+        this.jump = jump;
+    }
+
+    public void catInfo(){
+        System.out.println("CatName:" + name + "/RunLimit: " + run + "meters/" + "/Swimming:" + swimming + "/Jump:"
+        +jump+ "meters/");
+    }
+}
