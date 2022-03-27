@@ -1,0 +1,16 @@
+public class HomeWork7 {
+    public static void main(String[] args){
+        Cat[] cats = {
+                new Cat("Vasilii",50),
+                new Cat("Boris",55),
+                new Cat("Kuzma",5),
+                new Cat("Murka",3),
+                new Cat("Lena",60)};
+        Plate plate = new Plate(80);
+
+        for (Cat cat : cats){
+            cat.eat(plate);
+            cat.info();
+        }
+    }
+}
