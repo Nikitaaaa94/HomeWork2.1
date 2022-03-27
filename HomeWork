@@ -1,0 +1,55 @@
+public class HomeWork {
+
+
+    public static void main(String[] args) {
+
+        Employee[] empCorp = new Employee[5];
+
+        empCorp[0]= new Employee(
+                "Popovkov Alexei Alexeevich",
+                "QA Engineer",
+                "fhfh@jffjhf.com",
+                "892838474656",
+                10000,
+                45
+        );
+
+        empCorp[1] = new Employee(
+                "Popovkov Nikita Alexeevich",
+                "QA Engineer",
+                "fhfh@jffjhf.com",
+                "892838474656",
+                4000,
+                25
+        );
+
+         empCorp[2] = new Employee(
+                "Popovkov Semen Alexeevich",
+                "QA Engineer",
+                "fhfh@jffjhf.com",
+                "892838474656",
+                4500,
+                20
+        );
+
+        empCorp[3] = new Employee(
+                "Popovkov Boris Alexeevich",
+                "QA Engineer",
+                "fhfh@jffjhf.com",
+                "892838474656",
+                5000,
+                40
+        );
+
+         empCorp[4] = new Employee(
+                "Popovkov Pavel Alexeevich",
+                "QA Engineer",
+                "fhfh@jffjhf.com",
+                "892838474656",
+                4000,
+                34
+        );
+        for ( int i=0; i < empCorp.length; i++)
+            if(empCorp[i].age > 40) empCorp[i].print();
+    }
+}
